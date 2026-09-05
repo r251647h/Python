@@ -1,4 +1,4 @@
-fruits = ["Apple", "Banana", "Cherry", "Mango", "Grapes"]
+fruits = ["Banana", "Strawbery", "Mango","Apple", "Grapes"]
 with open("fruits.txt","w") as file:
     for fruit in fruits:
         file.write(fruit + "\n")
